@@ -15,9 +15,8 @@
 
 .avatar {
   // <<< inline
-  width: 6.5rem;
-  height: 6.5rem;
-  border-radius: 100%;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   // >>>
 
@@ -26,13 +25,6 @@
   position: relative;
   z-index: 1;
   img { width: 100%; }
-  // >>>
-
-  // <<< inline
-  @media screen and (min-width: $break-point-5) {
-    width: 7rem;
-    height: 7rem;
-  }
   // >>>
 }
 
